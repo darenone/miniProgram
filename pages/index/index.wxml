@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+  <view>{{Name}}</view>
+  <button bindtap="changeText">修改text</button>
+  <view>{{text}}</view>
+  <button bindtap="changeObject">修改object</button>
+  <view>{{object.subObject.objectText}}</view>
+  <button bindtap="changeArray">修改array</button>
+  <view>{{array[0].arrayText}}</view>
+  <button bindtap="addtext">增加新字段</button>
+  <view>{{newText}}</view>
+  <view>wx:if</view>
+  <view wx:if="{{false}}">不显示</view>
+  <view wx:elif="{{false}}">不显示</view>
+  <view wx:else="{{true}}">显示</view>
+</view>

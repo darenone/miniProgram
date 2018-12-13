@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#005FAA",
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "重庆涪陵大业建材骨料产线",
+    "backgroundColor": "#ff83fa",
+    "backgroundTextStyle":"dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#e6e6e6",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "iconPath": "images/homepage-2.png",
+        "selectedIconPath": "images/homepage_fill.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/createtask-2.png",
+        "selectedIconPath": "images/createtask_fill.png",
+        "pagePath": "pages/logs/logs",
+        "text": "设备"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "connectSocket": 60000
+  },
+  "debug": true
+}
