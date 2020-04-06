@@ -1,14 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#005FAA",
-    "navigationBarTextStyle": "#fff",
+    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "重庆涪陵大业建材骨料产线",
     "backgroundColor": "#ff83fa",
-    "backgroundTextStyle":"dark",
+    "backgroundTextStyle": "dark",
     "enablePullDownRefresh": true
   },
   "tabBar": {
@@ -36,5 +36,6 @@
     "request": 60000,
     "connectSocket": 60000
   },
-  "debug": true
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
 }
