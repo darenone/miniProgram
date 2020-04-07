@@ -1,8 +1,13 @@
 // App()函数用来注册一个小程序，参数为一个object
+/**
+ * 调用App()全局函数的目的：
+ * 用来创建应用程序实例对象
+ * 定义应用程序的生命周期事件
+ */
 App({
-  /*
-    onLaunch生命周期函数，监听小程序初始化，初始化完成就会触发此函数，onLaunch事件只会出发一次
-  */
+  /**
+   * onLaunch生命周期函数，监听小程序初始化，初始化完成就会触发此函数，onLaunch事件只会出发一次
+   */
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []

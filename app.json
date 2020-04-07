@@ -1,14 +1,15 @@
 {
   "pages": [
+    "pages/class/class",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {
     "navigationBarBackgroundColor": "#005FAA",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "重庆涪陵大业建材骨料产线",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "微信小程序",
     "backgroundColor": "#ff83fa",
-    "backgroundTextStyle": "dark",
+    "backgroundTextStyle": "light",
     "enablePullDownRefresh": true
   },
   "tabBar": {
@@ -23,6 +24,12 @@
         "selectedIconPath": "images/homepage_fill.png",
         "pagePath": "pages/index/index",
         "text": "首页"
+      },
+      {
+        "iconPath": "images/homepage-2.png",
+        "selectedIconPath": "images/homepage_fill.png",
+        "pagePath": "pages/class/class",
+        "text": "分类"
       },
       {
         "iconPath": "images/createtask-2.png",
